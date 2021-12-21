@@ -1,0 +1,99 @@
+/*Colors wile hovering the network icons (class .icons and .aside-icons)*/
+.fa-facebook-square:hover {
+    color: #4267B2;
+}
+
+.fa-linkedin:hover {
+    color: #0E76A8;
+}
+
+.fa-envelope-square:hover {
+    color: #DA202A;
+}
+
+.fa-twitter-square:hover {
+    color: #1DA1F2;
+}
+
+.fa-twitch:hover {
+    color: #6441A5;
+}
+
+.fa-discord:hover {
+    color: #5865F2;
+}
+
+/*Chess icon on the nav bar*/
+.fa-chess {
+    padding: 15px;
+    margin-right: 20px;
+    transition: 1s ease-in-out;
+}
+
+.fa-chess:hover {
+    transform: rotateY(180deg);
+    transition: ease-in-out 1s;
+}
+
+/*Angle-down icon next to the article*/
+.fa-angle-down {
+    padding: 0 0 0 15px;
+}
+
+/*Desktop version*/
+@media screen and (min-width: 800px) {
+
+    /*Open button on the nav bar. We don't want it to appear on the desktop version*/
+    .openMenu {
+        display: none;
+    }
+
+    /*Close button on the nav bar. We don't want it to appear on the desktop version*/
+    nav .mainMenu .closeMenu {
+        display: none;
+    }
+
+    /*Move to top button*/
+    .btn{
+        height: 40px;
+        width: 40px;
+        background: #2f9694;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        right: 7px;
+        bottom: 7px;
+        cursor: pointer;
+    }
+}
+
+/*Mobile version*/
+@media screen and (max-width: 800px) {
+
+    /*Open and close button*/
+    nav .openMenu {
+        display: block;
+        font-size: 2.5rem;
+        margin: 20px;
+        cursor: pointer;
+        box-shadow: inset 0 1px 5px 0 #B3001B;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        font-size: 2.5rem;
+        cursor: pointer;
+        box-shadow: inset 0 1px 5px 0 #B3001B;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    /*We don't want the move-to-top button appearing in the mobile version*/
+    .btn{
+        display: none;
+    }
+}

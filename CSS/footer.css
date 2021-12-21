@@ -1,0 +1,21 @@
+/*Disposition of the footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25vw;
+    background-color: #0E7C7A;
+    height: 7vh;
+    font-size: 1rem;
+    box-shadow: 0 1px 5px 0 #B3001B;
+}
+
+@media screen and (max-width: 800px){
+    .footer{
+        gap: 0;
+
+    }
+    .footer p{
+        margin: 0 10px 0;
+    }
+}

@@ -30,7 +30,7 @@ a {
 }
 
 #first_img {
-    width: 74vw;
+    width: 60vw;
     height: 50vh;
 }
 
@@ -44,7 +44,7 @@ a {
     display: grid;
     grid-template-columns: 6fr 1fr;
     grid-template-rows: min-content;
-    margin: 3vh 6vw;
+    margin: 3vh 14vw;
 }
 
 /*Disposition of the elements that are on the desktop version*/
@@ -76,7 +76,7 @@ a {
 
 aside {
     writing-mode: vertical-lr;
-    place-self: baseline center;
+    place-self: center;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
 }

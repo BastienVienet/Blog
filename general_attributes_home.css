@@ -18,6 +18,10 @@ h2 {
     text-decoration: underline;
 }
 
+p {
+    text-align: justify;
+}
+
 a {
     color: #0E7C7A;
     margin: 20px 0;

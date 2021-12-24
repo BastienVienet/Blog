@@ -23,7 +23,7 @@ Voici les différents points à respecter lors de la création du site web :
 - Une bonne arborescence doit être respectée pour la création des divers fichiers
 
 ## Documentation : 
-Une page sur votre site web va répondre à ces diverses questions (éviter le plagiat et citer vos sources en fin de page. 
+Une page sur votre site web va répondre à ces diverses questions (éviter le plagiat et citer vos sources en fin de page). 
 
 1. Expliquer la différence entre une requête HTTP synchrone et asynchrone.
 2. Expliquer les différences fondamentales entre 3 navigateurs web et expliquer où on peut trouver leur compatibilité CSS

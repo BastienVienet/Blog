@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1"
+          name="viewport">
+    <title>Blog de Bastien Vienet</title>
+    <script crossorigin="anonymous"
+            src="https://kit.fontawesome.com/240835c993.js"></script>
+    <link href="../CSS/general_attributes.css"
+          rel="stylesheet">
+    <link href="../CSS/documentation.css"
+          rel="stylesheet">
+    <link href="../CSS/nav_bar.css"
+          rel="stylesheet">
+    <link href="../CSS/all_icons.css"
+          rel="stylesheet">
+    <link href="../CSS/footer.css"
+          rel="stylesheet">
+</head>
+<body>
+<nav>
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <ul class="mainMenu"
+        id="mainMenu">
+        <li><a href="../index.html"
+               id="home">Home</a></li>
+        <li><a href="#"
+               id="nothing">Articles<span class="fas fa-angle-down"></span></a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a class="sub-menu-a"
+                           href="MK8D.html">Mario Kart 8 Deluxe</a></li>
+                    <li><a class="sub-menu-a"
+                           href="echecs.html">Échecs</a></li>
+                    <li><a class="sub-menu-a"
+                           href="music.html">Musiques</a></li>
+                    <li><a class="sub-menu-a"
+                           href="documentation.html">Documentation</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="closeMenu"><i class="fa fa-times"></i></li>
+        <li class="icons">
+            <div class="icon_flex1">
+                <a href="https://facebook.com/Bastien.Vienet"
+                   target="_blank"><span class="fab fa-facebook-square fa-3x"></span></a>
+                <a href="https://www.linkedin.com/in/bastien-vienet-389145203/"
+                   target="_blank"><span class="fab fa-linkedin fa-3x"></span></a>
+                <a href="mailto:bastien.vienet@outlook.com"
+                   target="_blank"><span class="fas fa-envelope-square fa-3x"></span></a>
+                <a href="https://twitter.com/kimo_ptit_lu"
+                   target="_blank"><span class="fab fa-twitter-square fa-3x"></span></a>
+            </div>
+            <div class="icon_flex2">
+                <a href="https://www.twitch.tv/kimo0598"
+                   target="_blank"><span class="fab fa-twitch fa-3x"></span></a>
+                <a href="https://discord.gg/HzeMVpgtde"
+                   target="_blank"><span class="fab fa-discord fa-3x"></span></a>
+            </div>
+        </li>
+    </ul>
+    <span class="fas fa-chess fa-5x"></span>
+</nav>
+<div class="page-wrapper">
+    <div class="h1-container"><h1>Doc + formulaire !</h1></div>
+    <div id="start_of_article"><h2>Une page sur laquelle je vais répondre à diverses questions concernant le module 293 de l'ESPIC</h2>
+        <img alt="Images of multiple question marks"
+             id="first_img"
+             src="../images/Questions.png">
+    </div>
+    <div id="rest_of_article">
+        <h3>1. Expliquer la différence entre une requête HTTP synchrone et asynchrone.</h3>
+        <p>Pour pouvoir répondre la question, il faut déjà expliquer ce qu'est l'HTTP. L'HTTP est un protocole de communication développé pour le
+           World Wide Web. Pour faire simple, c'est un protocole qui permet d’échanger des données sur internet en particulier des pages Web.</p>
+        <p> Une requête synchrone est une requête ou le navigateur est bloqué en attendant la réponse. Cela implique que les deux processus d'envoi de
+            requête et de réception de la réponse s'effectuent de manière synchronisée, chacune étant en lien avec l'autre. Par exemple, lorsque l'on
+            clique sur un lien hypertext. L'inconvénient majeur de la requête synchrone est le risque que le navigateur se fige durant la requête, ce
+            qui entraverait l'expérience de l'utilisateur.</p>
+        <p>Contrairement à la requête synchrone, une requête asynchrone est une requête où le navigateur peut s'occuper d'autres tâches durant
+           l'attente de la réponse du client. Par exemple, lors de la soumission de données. Les avantages de la requête HTTP de type asynchrone sont
+           le fait qu'il y a moins de latence d'une façon générale et qu'il y a également moins de trafic sur le réseau. Le désavantage principal est
+           le fait que c'est difficile à coder et à debugger. </p>
+        <p>Sources: <a href="https://www.paperblog.fr/2134405/le-protocole-http-les-requetes/"
+                       target="_blank">Paper Blog</a> +
+                    <a href="https://www.slideshare.net/adieng/requtes-httpsynchrones-et-asynchrones"
+                       target="_blank">Slideshare</a> +
+                    <a href="../Sources/HTTP.pdf"
+                       target="_blank">Le PowerPoint de présentation HTTP de M. Widmer</a></p>
+        <h3>2. Expliquer les différences fondamentales entre 3 navigateurs web et expliquer où on peut trouver leur compatibilité CSS</h3>
+        <p>Les deux principales différences entre les navigateurs Web sont le support et le rendu :</p>
+        <p>Le support comprend les mises à jour programmées telles que les mises à jour de sécurité, les corrections de bogues et l'ajout de nouvelles
+           fonctionnalités CSS, HTML, JavaScript et autres fonctionnalités spéciales au navigateur.</p>
+        <p>Le moteur de rendu est la façon dont une page Web est dessinée : il reprend les principaux éléments du HTML, les stylise sur la base du CSS
+           et ajoute des fonctionnalités supplémentaires via JavaScript. Il est donc important de créer un site internet qui peut être compatibles
+           avec tous les navigateurs utilisés !</p>
+        <p>On peut trouver facilement leurs compatibilités sur les sites comme
+            <a href="https://www.w3schools.com/tags/tag_li.asp"
+               target="_blank">w3school</a> (ici un exemple avec le tag "li") ou encore l'incroyable site
+            <a href="https://caniuse.com/"
+               target="_blank">CanIUse ?</a> qui est très complet pour vérifier les compatibilités de notre code avec les différents navigateurs !</p>
+        <p>Source : <a href="https://marketmentors.com/blog/different-web-browsers/"
+                       target="_blank">MarketMentors</a></p>
+        <h3>3. Écrire vos recommandations (best practice) pour programmer un site web en HTML / CSS.</h3>
+        <p>J'ai beaucoup de recommandations pour programmer un site alors je vais les écrire sous forme de liste.</p>
+        <ul>
+            <li>Le plus important pour moi est de coder dans ce que l'on appelle le "Mobile First". En effet, il est beaucoup plus facile de coder un
+                site en imaginant en premier lieu la version mobile avant de "l'agrandir pour qu'elle soit compatible en version Desktop que
+                l'inverse. Il y a de nombreuses fois où j'ai eu énormément de peine à adapter le contenu de ma page au mobile parce que j'y avais
+                pensé seulement après. Mobile First !!
+            </li>
+            <li>Ensuite, une astuce qui m'a permis de gagner énormément de temps est de coder par "partie". C'est-à-dire, se concentrer uniquement sur
+                la navbar en premier lieu et uniquement sur ça. Il faut faire chaque partie de son site comme ça sinon on se perd très facilement. Le
+                bloc par bloc est quelque chose qui m'a permis de toujours m'y retrouver quand je code.
+            </li>
+            <li>Il faut annoter son code si nécessaire, surtout pour ce qui concerne le CSS ! C'est un conseil qui m'a sauvé la vie à mainte reprise,
+                car je ne savais pas toujours ou était quoi et je prenais plus de temps à chercher quoi modifier et ou le code était écrit plutôt que
+                de faire la modification nécessaire.
+            </li>
+            <li>
+                Il faut impérativement faire des sauvegardes de son code au fur et à mesure de son avancement !! Git est très utile pour ça.
+                Nombreuses sont les histoires de personnes qui ont un ordinateur qui tombe en panne et qui perdent ainsi des heures et des heures de
+                travail.
+            </li>
+            <li>
+                Le dernier conseil que je pourrais donner est le fait de demander des feedbacks à notre entourage au fur et à mesure de l'avancement
+                de notre site internet. Parfois on ne remarque pas nous même nos erreurs, car on est trop pris dans notre monde.
+            </li>
+        </ul>
+        <h3>4. Décrire les aspects juridiques qui doivent être pris en compte et respectés sur un site web (droits d’auteur, protection de la
+            personnalité).</h3>
+        <p>Il y a deux choses très importantes dont tout codeur doit faire attention lors de la création de son site internet. Les droits d'auteurs et
+           la protection des données.</p>
+        <p>En ce qui concerne les droits d'auteurs, il fait faire extrêmement attention que tout ce qu'on utilise sur notre site est soit, libre de
+           droit, soit, qui nous appartient.</p>
+        <p>Pour ce qui est de la protection des données il y a souvent une page dans chaque site internet qui est dédié pleinement à ce propos. Il
+           faut respecter la RGPD et la LPD si on veut être dans la loi. Exemple :
+            <a href="https://www.mariokartcentral.com/forums/index.php?help/privacy-policy/"
+               target="_blank">La "privacy policy" sur Mario Kart Central</a></p>
+        <h3>5. Quels sont les formats multimédias supportés nativement par HTML 5.</h3>
+        <p>HTML5 prend en charge énormément de formats de médias que ce soit pour le son, la musique, les vidéos, les films et les animations. Vous
+           trouverez ci-dessous une liste des extensions prises en charge par chaque format multimédia.</p>
+        <ul>
+            <li>Images : png, jpg, jpeg, gif, apng, svg, bmp, BMP ico, png ico</li>
+            <li>Audio : MIDI, RealAudio, WMA, AAC, WAV, Ogg, MP3, MP4</li>
+            <li>Video : MPEG, AVI, WMV, QuickTime, RealVideo, Flash, Ogg, WebM, MPEG-4 or MP4</li>
+        </ul>
+        <p>Source : <a href="https://www.onlineinterviewquestions.com/list-the-media-types-and-formats-supported-by-html/"
+                       target="_blank">OnlineInterviewQuestions</a></p>
+    </div>
+    <div class="form_wrapper">
+        <h4>Si vous avez des questions, n'hésitez pas à remplir ce formulaire de contact !</h4>
+        <form id="survey-form">
+            <div class="form-group">
+                <label for="name"
+                       id="name-label">Nom</label> <input class="form-control"
+                                                          id="name"
+                                                          name="name"
+                                                          placeholder="Entrez votre Nom"
+                                                          required
+                                                          type="text"/>
+            </div>
+            <div class="form-group">
+                <label for="email"
+                       id="email-label">Email</label> <input class="form-control"
+                                                             id="email"
+                                                             name="email"
+                                                             placeholder="Entez votre Email"
+                                                             required
+                                                             type="email"/>
+            </div>
+            <div class="form-group">
+                <label for="number"
+                       id="number-label">Age (Optionnel)</label> <input class="form-control"
+                                                                        id="number"
+                                                                        max="99"
+                                                                        min="3"
+                                                                        name="number"
+                                                                        placeholder="Age"
+                                                                        type="number"/>
+                <p>Pourquoi est ce que vous voulez me contacter ?</p>
+                <label for="dropdown"
+                       id="dropdown-label"></label> <select class="form-control"
+                                                            id="dropdown"
+                                                            name="role"
+                                                            required>
+                <option disabled
+                        selected
+                        value>Sélectionnez votre/vos raison(s)
+                </option>
+                <option value="Contenant">Question(s) sur le contenu du site</option>
+                <option value="Life">Question(s) sur ma vie en général</option>
+                <option value="Upgrade">J'aimerais proposer une amélioration du site</option>
+                <option value="Other">Autre</option>
+            </select>
+                <div class="form-group">
+                    <p>Est-ce que vous aimez naviguer sur mon site internet ?</p>
+                    <label for="Yes"></label> <input class="input-radio"
+                                                     id="Yes"
+                                                     name="recommend"
+                                                     type="radio"
+                                                     value="Yes"/>Oui !
+                    
+                    <label for="maybe"></label> <input class="input-radio"
+                                                       id="maybe"
+                                                       name="recommend"
+                                                       type="radio"
+                                                       value="maybe"/>Moyennement
+                    
+                    <label for="No"></label> <input class="input-radio"
+                                                    id="No"
+                                                    name="recommend"
+                                                    type="radio"
+                                                    value="No"/>Non..
+                </div>
+                <div class="form-group">
+                    <p>Quelle est votre page de mon site que vous préférez ?</p>
+                    <label for="most-like"
+                           id="most-like_label"></label> <select class="form-control"
+                                                                 id="most-like"
+                                                                 name="most-like"
+                                                                 required>
+                    <option disabled
+                            selected
+                            value>Sélectionnez une page
+                    </option>
+                    <option value="Home">Home</option>
+                    <option value="MK8D">Mario Kart 8 Deluxe</option>
+                    <option value="Echecs">Échecs</option>
+                    <option value="Music">Musiques</option>
+                    <option value="Documentation">Documentation</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <p>Si vous avez des commentaires supplémentaires, n'hésitez pas à les écrire ici !</p>
+                    <label for="comments"
+                           id="comments_label"></label> <textarea class="input-textarea"
+                                                                  id="comments"
+                                                                  name="comments"
+                                                                  placeholder="Écrivez vos commentaires ici !"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="submit-button"
+                            id="submit"
+                            type="submit">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <aside>
+        <div class="aside-icons">
+            <a href="https://facebook.com/Bastien.Vienet"
+               target="_blank"><span class="fab fa-facebook-square fa-3x"></span></a>
+            <a href="https://www.linkedin.com/in/bastien-vienet-389145203/"
+               target="_blank"><span class="fab fa-linkedin fa-3x"></span></a>
+            <a href="mailto:bastien.vienet@outlook.com"
+               target="_blank"><span class="fas fa-envelope-square fa-3x"></span></a>
+            <a href="https://twitter.com/kimo_ptit_lu"
+               target="_blank"><span class="fab fa-twitter-square fa-3x"></span></a>
+            <a href="https://www.twitch.tv/kimo0598"
+               target="_blank"><span class="fab fa-twitch fa-3x"></span></a>
+            <a href="https://discord.gg/HzeMVpgtde"
+               target="_blank"><span class="fab fa-discord fa-3x"></span></a>
+        </div>
+    </aside>
+    <div class="btn">
+        <span class="fas fa-angle-up"></span>
+    </div>
+</div>
+<footer class="footer"><p>Vienet Bastien</p>
+    <p>-</p>
+    <p>&copy; Tous droits réservés</p>
+</footer>
+<script src="/JAVASCRIPT/menuburger.js"></script>
+<script src="/JAVASCRIPT/move_to_top_btn.js"></script>
+</body>
+</html>

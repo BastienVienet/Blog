@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1"
+          name="viewport">
+    <title>Blog de Bastien Vienet</title>
+    <script crossorigin="anonymous"
+            src="https://kit.fontawesome.com/240835c993.js"></script>
+    <link href="../CSS/general_attributes.css"
+          rel="stylesheet">
+    <link href="../CSS/echecs.css"
+          rel="stylesheet">
+    <link href="../CSS/nav_bar.css"
+          rel="stylesheet">
+    <link href="../CSS/all_icons.css"
+          rel="stylesheet">
+    <link href="../CSS/footer.css"
+          rel="stylesheet">
+</head>
+<body>
+<nav>
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <ul class="mainMenu"
+        id="mainMenu">
+        <li><a href="../index.html"
+               id="home">Home</a></li>
+        <li><a href="#"
+               id="nothing">Articles<span class="fas fa-angle-down"></span></a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a class="sub-menu-a"
+                           href="MK8D.html">Mario Kart 8 Deluxe</a></li>
+                    <li><a class="sub-menu-a"
+                           href="echecs.html">Échecs</a></li>
+                    <li><a class="sub-menu-a"
+                           href="music.html">Musiques</a></li>
+                    <li><a class="sub-menu-a"
+                           href="documentation.html">Documentation</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="closeMenu"><i class="fa fa-times"></i></li>
+        <li class="icons">
+            <div class="icon_flex1">
+                <a href="https://facebook.com/Bastien.Vienet"
+                   target="_blank"><span class="fab fa-facebook-square fa-3x"></span></a>
+                <a href="https://www.linkedin.com/in/bastien-vienet-389145203/"
+                   target="_blank"><span class="fab fa-linkedin fa-3x"></span></a>
+                <a href="mailto:bastien.vienet@outlook.com"
+                   target="_blank"><span class="fas fa-envelope-square fa-3x"></span></a>
+                <a href="https://twitter.com/kimo_ptit_lu"
+                   target="_blank"><span class="fab fa-twitter-square fa-3x"></span></a>
+            </div>
+            <div class="icon_flex2">
+                <a href="https://www.twitch.tv/kimo0598"
+                   target="_blank"><span class="fab fa-twitch fa-3x"></span></a>
+                <a href="https://discord.gg/HzeMVpgtde"
+                   target="_blank"><span class="fab fa-discord fa-3x"></span></a>
+            </div>
+        </li>
+    </ul>
+    <span class="fas fa-chess fa-5x"></span>
+</nav>
+<div class="page-wrapper">
+    <div class="h1-container"><h1>Le jeu d'échec !</h1></div>
+    <div id="start_of_article"><h2>Présentation des ouvertures que j'aime jouer</h2>
+        <img alt="Image qui représente un plateau de jeu"
+             id="first_img"
+             src="../images/echecs.png">
+    </div>
+    <div id="rest_of_article">
+        <h3>Introduction aux échecs - Pourquoi est-ce que j'aime ça ?</h3>
+        <p>Le jeu d'échec est un jeu que j'affectionne particulièrement, car il a toujours été à mes côtés dans les moments difficiles de ma vie. J'ai
+           pu grâce à ce jeu, me créer des nouvelles amitiés, lier des liens avec les différents joueurs et surtout me plonger dans un monde fascinant
+           et qui me stimule intellectuellement. Je ne suis clairement pas le meilleur d'échec que je connaisse et je ne suis pas un expert comme sur
+           Mario Kart, mais chaque partie à sa propre histoire et c'est cela qui me fascine autant dans ce jeu.</p>
+        <h3>Pour les blancs : The London system</h3>
+        <div class="chess_position_flex">
+            <img alt="Position de base du système"
+                 class="chessboard_positions"
+                 id="echec_base_starting_position1"
+                 src="../images/echec_starting_position_white.png"> <span class="fas fa-arrow-right fa-3x"></span>
+            <img alt="Position de base du système"
+                 class="chessboard_positions"
+                 id="echec_london_base"
+                 src="../images/echec_london.png">
+        </div>
+        <p>The London system est une ouverture très populaire 1.d4 d5 2.Bf4 pour les Blancs qui à la réputation d'être très solide. The London system
+           est considérée comme un très bon système parce que les Blancs peuvent jouer la même configuration de base pour presque toutes les réponses
+           des noirs. Pour cette raison, la théorie n'est pas aussi étendue que pour d'autres ouvertures est elle est très simple à apprendre de
+           base.</p>
+        <div class="pros_cons">
+            <div class="pros">
+                <h4>Points positifs</h4>
+                <ul>
+                    <li>Difficile pour les noirs d'avoir un jeu actif</li>
+                    <li>Difficile pour les noirs d'éviter de rentrer dans ce système</li>
+                    <li>Facile à jouer pour les débutants</li>
+                </ul>
+            </div>
+            <div class="cons">
+                <h4>Points négatifs</h4>
+                <ul>
+                    <li>Moins de chances d'attaquer les noirs</li>
+                    <li>Pose peu de problèmes directs aux noirs</li>
+                    <li>Le fou en f4 peut être plus ou moins exposé facilement.</li>
+                </ul>
+            </div>
+        </div>
+        <h3>Pour les noirs : The Petrov's defence</h3>
+        <div class="chess_position_flex">
+            <img alt="Position de base du système"
+                 class="chessboard_positions"
+                 id="echec_base_starting_position2"
+                 src="../images/echec_starting_position_black.png"> <span class="fas fa-arrow-right fa-3x"></span>
+            <img alt="Position de base du système"
+                 class="chessboard_positions"
+                 id="echec_petrov_base"
+                 src="../images/echec_petrov.png">
+        </div>
+        <p>Dans la défense de Petrov (1.e4 e5 2.Nf3 Nf6), les noirs répondent à l'attaque de leur pion e5 en contre-attaquant le pion e4 avec le
+           cavalier. Cela conduit souvent à un échange de pions sur la colonne e.</p>
+        <div class="pros_cons">
+            <div class="pros">
+                <h4>Points positifs</h4>
+                <ul>
+                    <li>Les noirs se développent rapidement</li>
+                    <li>Très solide</li>
+                    <li>Peut transposer à une autre ouverture simple à jouer : "Stafford Gambit"</li>
+                </ul>
+            </div>
+            <div class="cons">
+                <h4>Points négatifs</h4>
+                <ul>
+                    <li>Dans les positions ouvertes qui en résultent, les blancs ont un léger avantage de développement</li>
+                    <li>Il est très facile de faire une égalité pour les blancs</li>
+                    <li>Il y a beaucoup de théorie à apprendre</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="quote"><h2>Petite citation</h2>
+        <q>Le pion est l'âme des échecs ainsi que ma pièce préférée.</q></section>
+    <aside>
+        <div class="aside-icons">
+            <a href="https://facebook.com/Bastien.Vienet"
+               target="_blank"><span class="fab fa-facebook-square fa-3x"></span></a>
+            <a href="https://www.linkedin.com/in/bastien-vienet-389145203/"
+               target="_blank"><span class="fab fa-linkedin fa-3x"></span></a>
+            <a href="mailto:bastien.vienet@outlook.com"
+               target="_blank"><span class="fas fa-envelope-square fa-3x"></span></a>
+            <a href="https://twitter.com/kimo_ptit_lu"
+               target="_blank"><span class="fab fa-twitter-square fa-3x"></span></a>
+            <a href="https://www.twitch.tv/kimo0598"
+               target="_blank"><span class="fab fa-twitch fa-3x"></span></a>
+            <a href="https://discord.gg/HzeMVpgtde"
+               target="_blank"><span class="fab fa-discord fa-3x"></span></a>
+        </div>
+    </aside>
+    <div class="btn">
+        <span class="fas fa-angle-up"></span>
+    </div>
+</div>
+<footer class="footer"><p>Vienet Bastien</p>
+    <p>-</p>
+    <p>&copy; Tous droits réservés</p>
+</footer>
+<script src="/JAVASCRIPT/menuburger.js"></script>
+<script src="/JAVASCRIPT/move_to_top_btn.js"></script>
+</body>
+</html>

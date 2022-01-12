@@ -10,6 +10,11 @@ nav {
     box-shadow: 0 1px 3px 0 #B3001B;
 }
 
+#nothing {
+    pointer-events: none;
+    cursor: default;
+}
+
 nav .mainMenu {
     display: flex;
     list-style: none;
@@ -110,6 +115,10 @@ nav .mainMenu li a:hover {
     nav .mainMenu li a#home {
         padding: 15px;
         margin: 5px;
+    }
+
+    nav .mainMenu li a#nothing {
+        display: none;
     }
 
     /*Text appearing in red when we hover the item in the list*/

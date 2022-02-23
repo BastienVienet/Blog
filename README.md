@@ -35,6 +35,6 @@ Une page sur votre site web va répondre à ces diverses questions (éviter le p
 5. Quels sont les formats multimédias supportés nativement par HTML 5.
 
 ## Informations sur le rendu :
-**Quand ? : Info 1E** : jusqu’à mercredi 12 janvier 9h30
+**Quand ? : Info 1E** : jusqu’à mercredi 12 janvier 2022 à 9h30
 **Combien** : tout seul
 **Quoi** : Nous faire parvenir en zippant votre (site + URL) sur Moodle

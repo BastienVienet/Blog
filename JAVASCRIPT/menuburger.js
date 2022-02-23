@@ -2,6 +2,7 @@
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
+const footer = document.querySelector('.footer');
 
 /*Initialiser la valeur par défaut*/
 window.addEventListener("load", function (){
@@ -13,8 +14,10 @@ closeMenu.addEventListener('click', close);
 
 function show() {
     mainMenu.style.top = '0';
+    footer.style.display = 'none';
 }
 
 function close() {
     mainMenu.style.top = '-110%';/*-100% didn't work for me, so I put -110%*/
+    footer.style.display = 'flex';
 }
